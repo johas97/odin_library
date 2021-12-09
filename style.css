@@ -1,0 +1,81 @@
+
+/* Header*/
+body {
+    margin: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cloudLogo {
+    width: 8em;
+    height: auto;
+    margin: 1em;
+}
+
+.left-header {
+    margin-left : 1.3em;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.cloud-seperator{
+    background-image: url('cloud.png');
+    height: 5.6em;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*Body*/
+.body {
+    display: flex;
+    
+
+}
+
+.addBookBox {
+    display: grid;
+    background-color: rgba(128, 128, 128, 0.5);
+    gap: 3em;
+    padding: 3em;
+    border-radius: 2em;
+    margin-left: 3em;
+    margin-top: 5em;
+    font-size: large;
+}
+
+.displayBookBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 1300px;
+    height: 400px;
+    gap:3em;
+    margin-left: 5em;
+    margin-top: 3em;
+    font-size: smaller;
+    
+}
+
+.book {
+    background-color: #b8eafc;
+    text-align: center;
+    border-radius: 6em;
+
+
+}
+
+/*Footer*/
+.footer {
+    background-color: rgb(66, 80, 161);
+    color: white;
+    height: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
